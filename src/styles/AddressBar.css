@@ -1,0 +1,21 @@
+.address-container{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.address-container>p{
+  font-family: Google Sans,Roboto,Arial,sans-serif;
+  font-size: 24px,
+  font-weight: 400;
+  line-height:32px;
+  color:rgb(31,31,31);
+}
+
+.viewing-icons{
+  display:flex;
+}
+
+.vertical{
+  border-left: 5px solid black;
+  height: 200px;
+}

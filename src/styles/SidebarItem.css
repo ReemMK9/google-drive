@@ -1,0 +1,25 @@
+.sidebarItem{
+  display:flex;
+  padding: 10px 0;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.sidebarItem:hover{
+  background-color: rgba(0,0,0,0.04);
+}
+
+.sidebarItem-arrow{
+  width: 28px;
+  margin-left: 12px;
+}
+
+.sidebarItem-main{
+  display:flex;
+}
+
+.sidebarItem-main>p{
+  margin-left:12px;
+  font-family: Google Sans,Roboto,Arial,sans-serif;
+
+}
