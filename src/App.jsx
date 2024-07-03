@@ -16,14 +16,17 @@ function App() {
   return (
     <div className='App'>
       <Header userPhoto={user.photoURL}/>
-      <Sidebar/>
-      <Main/>
-      {/* auth=true
-      sidebar
-      filesView
-      sideIcons
-      */}
-      {/* no auth: log in */}
+      <div className='app-main'>
+        <Sidebar/>
+        <Main/>
+        {/* auth=true
+        sidebar
+        filesView
+        sideIcons
+        */}
+        {/* no auth: log in */}
+      </div>
+      
     </div>
   );
 }

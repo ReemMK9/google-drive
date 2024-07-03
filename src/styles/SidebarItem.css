@@ -3,6 +3,8 @@
   padding: 10px 0;
   border-radius: 100px;
   cursor: pointer;
+  align-items:center;
+
 }
 
 .sidebarItem:hover{
@@ -16,6 +18,7 @@
 
 .sidebarItem-main{
   display:flex;
+  align-items:center;
 }
 
 .sidebarItem-main>p{
